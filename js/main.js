@@ -5,7 +5,7 @@ window.onload = function(){
     function addElement(){
         element = document.createElement('li')
         let value = document.getElementById('text-entry').value
-        
+
         element.id = list.childElementCount
         element.innerHTML = `${value} <input  type="button" class="del-btn" name="${list.childElementCount}" value="delete"/>`
 
