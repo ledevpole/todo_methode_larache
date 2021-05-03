@@ -26,13 +26,13 @@ window.onload = function(){
 
     function alert2(id){
         console.log("alert2")
-        document.getElementById(id).classList.add("green");
+        document.getElementById(id).classList.replace("late","green");
         setTimeout(alert3,5000,id)
     }
 
     function alert3(id){
         console.log("alert3")
-        document.getElementById(id).classList.add("blue");
+        document.getElementById(id).classList.add("green","blue");
     }
 
     document.getElementById('add-item').addEventListener("click", addElement)
