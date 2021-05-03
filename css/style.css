@@ -43,3 +43,15 @@ body {
 li {
     margin: 1em;
 }
+
+.late {
+    color: brown;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
